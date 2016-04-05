@@ -1,0 +1,244 @@
+/*
+HTML 5 Template Name: Basic 88
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
+#here
+{
+	color:red;
+}
+<<<<<<< HEAD
+
+
+
+body{margin:0 auto; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif;}
+=======
+.random 
+{
+	width: 1900px;
+	height: 1080px;
+}
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+>>>>>>> origin/master
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+<<<<<<< HEAD
+.form_move
+{
+	padding: 0 0 0 10px;
+}
+
+.font_move{
+	margin-left: 5em;
+}
+
+.pure-g div,
+.pure-g article,
+.pure-g aside,
+.pure-menu-selected{  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+    /*border: 1px solid rgb(255,195,13);*/
+}
+.move
+{
+
+    text-align: center;
+
+}
+
+#header, #footer, #copyright{display:block; margin:0 auto;}
+.form_box
+{
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+
+.fade
+{  
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    opacity: 1;
+
+}​
+
+.show_pic
+{
+    width: 960px;
+    height: 560px;
+    border:1px solid black;
+    
+}
+.button_logout
+{
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+=======
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%;padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}*/
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3{color:#989898; background-color:#333333;}
+.row3 a{color:#FF9900; background-color:#333333;}
+.row4, .row4 a{color:#919191; background-color:#232323;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #footer, #copyright{display:block; width:960px; margin:0 auto;}
+
+#container{display:block; width:960px;}
+#fade
+{  
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+
+}​
+
+>>>>>>> origin/master
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:32px; font-weight:normal; font-style:italic; line-height:normal;}
+
+address{font-style:normal;}
+<<<<<<< HEAD
+.padding{
+    margin: 10em;
+}
+form{padding:0; border:none;}
+fieldset, legend{margin:0; padding:0; border:none;}
+=======
+
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+>>>>>>> origin/master
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 20px 0 0;}
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+#form1{padding-top: 1em;}
+#form2{padding-top: 5em;}
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0; color:#C0BAB6; background-color:#333333;}
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header li{display:block; float:left; margin:10px 0 0 0; padding:20px 0;}
+#header nav ul{padding:0 20px; float: right;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+<<<<<<< HEAD
+
+#here{color:#C0BAB6; background-color:#232323;}
+=======
+#header nav li a{color:#C0BAB6; background-color:#232323;}
+#header #here li a{color:blue; background-color:#232323;}
+>>>>>>> origin/master
+#header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Slider-----*/
+
+#container #slider{}
+
+/* ------Main Content-----*/
+
+.upload_position{padding-left: 5em; padding-top:5em;}
+
+#container #homepage{display:block; width:100%; line-height:1.8em;}
+
+#container #homepage #services{}
+#container #homepage #services article{}
+#container #homepage #services article figure{}
+#container #homepage #services article figure img{margin:0 0 15px 0; padding:4px; border:1px solid #D6D6D6;}
+#container #homepage #services article figure figcaption{}
+#container #homepage #services article figure h2{font-size:14px; font-weight:bold;}
+#container #homepage #services article figure footer{}
+
+#container #homepage #intro{}
+#container #homepage #intro article{}
+#container #homepage #intro article figure{}
+#container #homepage #intro article figure img{float:right; margin:0 0 10px 0; padding:4px; border:1px solid #D6D6D6;}
+#container #homepage #intro article figure figcaption{float:left; width:460px;}
+#container #homepage #intro article figure h2{}
+#container #homepage #intro article figure footer{}
+
+/*----------------------------------------------Footer-------------------------------------*/
+footer{color:#C0BAB6; background-color:#333333;}
+#footer{padding:30px 0; font-size:12px; line-height:1.4em; color:#C0BAB6; background-color:#333333; position:absolute; bottom:0;}
+
+#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FFFFFF; background-color:#333333; font-size:12px; font-weight:bold; text-transform:uppercase;}
+
+#footer section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px solid #555555;}
+#footer section nav li.last{margin:0;}
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:5em 0;}
+#copyright p{margin:0; padding-left: 10em;}
